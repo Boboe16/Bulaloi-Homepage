@@ -54,7 +54,7 @@ html,body {
     list-style: none;
     text-decoration: none;
     display: inline;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 #Header ul {
