@@ -4,12 +4,12 @@ html,body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
 }
 
 .grid-container {
     display: grid;
-    grid-template-rows: 78px 500px 78px;
+    grid-template-rows: 78px auto 78px;
     gap: 0;
 }
 
