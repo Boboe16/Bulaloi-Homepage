@@ -127,8 +127,33 @@ html,body {
 }
 
 #Footer h2 {
-    padding: 0px 15px 0px 15px;
+    padding-right: 10px;
     display: inline;
     position: relative;
-    top: 30px;
+    top: 20px;
+    left: 20px;
+}
+
+@media (max-width: 800px) {
+    #Main img {
+        width: 300px;
+        position: relative;
+        left: -240px;
+        top: -35px;
+    }
+
+    #main-text {
+        position: relative;
+        top: -40px;
+        left: -200px;
+    }
+
+}
+
+@media (max-width: 458px) {
+    #Footer h2 {
+        display: block;
+        line-height: 10px;
+        top: 1px;
+    }
 }
