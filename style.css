@@ -95,6 +95,10 @@ html,body {
     right: 49px;
 }
 
+.main-content button {
+    border-color: black;
+}
+
 #main-text {
     position: relative;
     bottom: 300px;
