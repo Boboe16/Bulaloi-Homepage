@@ -239,4 +239,8 @@ html,body {
         position: relative;
         left: -30px;
     }
+    
+    #Header ul {
+        padding: 0;
+    }
 }
