@@ -154,9 +154,14 @@ html,body {
         overflow-y: visible;
     }
 
+    #children-main {
+        position: relative;
+        top: 100px;
+    }
+
     .grid-container {
         display: grid;
-        grid-template-rows: 78px auto 78px;
+        grid-template-rows: 78px 100% 78px;
         gap: 0;  
     }
 
