@@ -10,7 +10,7 @@ html,body {
 .grid-container {
     display: grid;
     grid-template-rows: 78px 500px 78px;
-    gap: 0;
+    gap: 0;   
 }
 
 .grid-item {
@@ -85,7 +85,7 @@ html,body {
     list-style: none;
     text-decoration: none;
     display: inline;
-    padding: 10px;
+    padding-right: 10px;
     color: black;
     font-weight: bold;
 }
@@ -134,9 +134,18 @@ html,body {
     left: 20px;
 }
 
+@media (max-width: 458px) {
+
+    #Footer h2 {
+        display: block;
+        line-height: 10px;
+        top: 1px;
+    }
+}
+
 @media (max-width: 800px) {
-    
-        html,body {
+
+    html,body {
         width: 100%;
         height: 100%;
         margin: 0px;
@@ -148,13 +157,13 @@ html,body {
     .grid-container {
         display: grid;
         grid-template-rows: 78px auto 78px;
-        gap: 0;   
+        gap: 0;  
     }
-    
+
     #Main img {
         width: 300px;
         position: relative;
-        left: -240px;
+        left: -250px;
         top: -35px;
     }
 
@@ -162,14 +171,5 @@ html,body {
         position: relative;
         top: -40px;
         left: -200px;
-    }
-
-}
-
-@media (max-width: 458px) {
-    #Footer h2 {
-        display: block;
-        line-height: 10px;
-        top: 1px;
     }
 }
