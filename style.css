@@ -86,6 +86,7 @@ html,body {
     text-decoration: none;
     display: inline;
     padding-right: 10px;
+    padding-left: 10px;
     color: black;
     font-weight: bold;
 }
@@ -180,5 +181,54 @@ html,body {
         position: relative;
         top: -40px;
         left: -200px;
+    }
+}
+
+@media (max-width: 300px) {
+    #Header {
+        text-align: left;
+    }
+
+    #Header ul {
+        position: relative;
+        left: -20px;
+        padding: 0;
+    }
+
+    #Header h1 {
+        position: relative;
+        left: 35px;
+    }
+
+    #Header img {
+        position: relative;
+        left: 35px;
+    }
+
+    #children-main {
+        position: relative;
+        left: 230px;
+    }
+
+    #Main img {
+        width: 285px;
+        left: -245px;
+    }
+    
+    #main-h2 {
+        position: relative;
+        left: -44px;
+        font-size: 15;
+    }
+
+    #Main ul {
+        padding: 0;
+        position: relative;
+        left: -44px;
+    }
+
+    #Footer h2 {
+        position: relative;
+        left: -10px;
     }
 }
