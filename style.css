@@ -236,5 +236,7 @@ html,body {
 @media (max-width: 321px) {
     #Main ul {
         padding: 0;
+        position: relative;
+        left: -30px;
     }
 }
