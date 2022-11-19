@@ -232,3 +232,9 @@ html,body {
         left: -10px;
     }
 }
+
+@media (max-width: 321px) {
+    #Main ul {
+        padding: 0;
+    }
+}
